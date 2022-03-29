@@ -108,7 +108,7 @@ packaging==20.4
     #   ansible-lint
     #   molecule
     #   pytest
-paramiko==2.7.1
+paramiko==2.10.1
     # via molecule
 pathspec==0.9.0
     # via black
@@ -167,10 +167,10 @@ rich==10.7.0
     #   ansible-lint
     #   enrich
     #   molecule
-ruamel.yaml==0.17.20
+ruamel-yaml==0.17.20
     # via ansible-lint
-ruamel.yaml.clib==0.2.6
-    # via ruamel.yaml
+ruamel-yaml-clib==0.2.6
+    # via ruamel-yaml
 selinux==0.2.1
     # via
     #   molecule
@@ -181,6 +181,7 @@ six==1.15.0
     #   cookiecutter
     #   cryptography
     #   packaging
+    #   paramiko
     #   pynacl
     #   python-dateutil
     #   python-jenkins
