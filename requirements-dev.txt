@@ -53,7 +53,7 @@ commonmark==0.9.1
     # via rich
 cookiecutter==1.7.3
     # via molecule
-cryptography==3.3.2
+cryptography==39.0.1
     # via
     #   ansible-core
     #   paramiko
@@ -167,10 +167,10 @@ rich==10.7.0
     #   ansible-lint
     #   enrich
     #   molecule
-ruamel.yaml==0.17.20
+ruamel-yaml==0.17.20
     # via ansible-lint
-ruamel.yaml.clib==0.2.6
-    # via ruamel.yaml
+ruamel-yaml-clib==0.2.6
+    # via ruamel-yaml
 selinux==0.2.1
     # via
     #   molecule
@@ -179,7 +179,6 @@ six==1.15.0
     # via
     #   bcrypt
     #   cookiecutter
-    #   cryptography
     #   packaging
     #   pynacl
     #   python-dateutil
